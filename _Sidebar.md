@@ -1,6 +1,6 @@
 [Home](https://github.com/methnen/m-chart/wiki)
 
-Documentation
+**Documentation**
 
 - [Chart examples](https://github.com/methnen/m-chart/wiki/Chart-examples)
 - [User documentation](https://github.com/methnen/m-chart/wiki/User-documentation)
