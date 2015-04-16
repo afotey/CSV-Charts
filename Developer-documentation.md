@@ -103,7 +103,7 @@ See the [Highcharts API](http://api.highcharts.com/highcharts) reference for all
 	- `$chart_options`
 		- The Highcharts options
 	- `$library`
-		- The active library (currently will also be 'highcharts')
+		- The active library (will aways be 'highcharts' until we support more libraries)
 
 Example:
 
