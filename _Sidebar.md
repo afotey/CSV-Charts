@@ -3,7 +3,8 @@
 **User Documentation**
 
 - [Types of charts](https://github.com/methnen/m-chart/wiki/Types-of-charts)
-- [User documentation](https://github.com/methnen/m-chart/wiki/User-documentation)
+- [Creating a chart](https://github.com/methnen/m-chart/wiki/creating-a-chart)
+- [Embedding charts in posts]()
 - [CSV importing/exporting](https://github.com/methnen/m-chart/wiki/csv-importing-exporting)
 
 **Developer Documentation**
