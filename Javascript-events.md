@@ -2,15 +2,32 @@ There are two Javascript events that occur when a Highcharts chart is rendering.
 
 ### `render_start` ###
 
-Render start occurs immediately before a Highcharts chart starts rendering.  
+`render_start` occurs immediately before a Highcharts chart starts rendering.  
 
-The event has the chart's WordPress post ID value available to it, which in turn would allow you to manipulate the `m_chart_highcharts_ID` object.
+The event has the chart's WordPress post ID value available to it, which in turn would allow you to manipulate the `m_chart_highcharts_ID` object or the container divs that the chart will render inside of.
 
 Example:
 
 ```js
-$( '.m-chart' ).on( 'render_done', function(){
+$( '.m-chart' ).on( 'render_start', function( event ){
+	$( '.m-chart-container-' + event.post_id ).addClass( 'awesome-chart' );
 });
 ````
 
 ### `render_done` ###
+
+`render_done` occurs immediately after a Highcharts chart has finished rendering.  
+
+The event has the chart's WordPress post ID value available to it and more importantly the Highcharts chart object.  
+
+The M Chart admin panel Javascript uses this event to generate the high resolution PNG version of the graph.  However, it could be used to manipulate the chart object however you wished.
+
+Example:
+
+```js
+$( '.m-chart' ).on( 'render_done', function( event ){
+	event.chart.addSeries({
+		data: [194.1, 95.6, 54.4, 29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4]
+	});
+});
+````
