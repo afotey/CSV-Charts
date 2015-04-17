@@ -6,9 +6,10 @@
 - [User documentation](https://github.com/methnen/m-chart/wiki/User-documentation)
 - [CSV importing/exporting](https://github.com/methnen/m-chart/wiki/csv-importing-exporting)
 
-**User Documentation**
+**Developer Documentation**
 
-- [Developer documentation](https://github.com/methnen/m-chart/wiki/Developer-documentation)
+- [Filter and action hooks](https://github.com/methnen/m-chart/wiki/Developer-documentation)
+- [Javascript events](https://github.com/methnen/m-chart/wiki/javascript-events)
 
 [Future development plans](https://github.com/methnen/m-chart/wiki/Future-development-plans)
 
