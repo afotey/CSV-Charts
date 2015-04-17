@@ -1,13 +1,3 @@
-## Types of charts ##
-M Chart currently supports 6 types of chart:
-
-1. [Line](https://github.com/methnen/m-chart/wiki/Chart-Examples#line)
-2. [Spline](https://github.com/methnen/m-chart/wiki/Chart-Examples#spline)
-3. [Area](https://github.com/methnen/m-chart/wiki/Chart-Examples#area)
-4. [Column](https://github.com/methnen/m-chart/wiki/Chart-Examples#column)
-5. [Bar](https://github.com/methnen/m-chart/wiki/Chart-Examples#bar)
-6. [Pie](https://github.com/methnen/m-chart/wiki/Chart-Examples#pie)
-
 ## Creating a chart ##
 
 Here's a screenshot of the M Chart UI:
@@ -55,13 +45,3 @@ The spreadsheet for this data set is quite simple:
 Pie charts also have simplified chart options:
 
 ![Pie Settings](https://methnen.com/misc/m-chart/pie-settings.png)
-
-## Embedding charts in your posts ##
-
-Once you've got a chart you want to use in a post make sure you've published it.  Then copy the Shortcode generated for you at the bottom of the chart settings (clicking on the field will automatically select the entire shortcode for you):
-
-![Pie Settings](https://methnen.com/misc/m-chart/pie-settings.png)
-
-You'll notice an Image field and View button to the right of the Shortcode field. Every time you update your chart post a high resolution PNG copy will be generated as well.
-
-The shortcode is smart enough that it will use the image version in situations where the Javascript version will not work. The best example of that is in your RSS or Atom feeds.
