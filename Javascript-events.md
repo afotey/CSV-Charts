@@ -22,6 +22,8 @@ The event has the chart's WordPress post ID value available to it and more impor
 
 The M Chart admin panel Javascript uses this event to generate the high resolution PNG version of the graph.  However, it could be used to manipulate the chart object however you wished.
 
+See the [Highcharts API](http://api.highcharts.com/highcharts) reference Methods and Properties section for all the possibilities.
+
 Example:
 
 ```js
