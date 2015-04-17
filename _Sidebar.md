@@ -9,7 +9,7 @@
 
 **Developer Documentation**
 
-- [Filter and action hooks](https://github.com/methnen/m-chart/wiki/Developer-documentation)
+- [Action and filter hooks](https://github.com/methnen/m-chart/wiki/Action-and-filter-hooks)
 - [Javascript events](https://github.com/methnen/m-chart/wiki/javascript-events)
 
 [Future development plans](https://github.com/methnen/m-chart/wiki/Future-development-plans)
