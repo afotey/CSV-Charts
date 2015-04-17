@@ -51,7 +51,7 @@ This hook is useful for changing the behavior of the plugin in regards to how it
 
 You could reformat the tooltips for instance, or you could modify axis title text.  You could also add arguments to the chart args that M Chart doesn't use by default like change the colors used to render the chart.
 
-See the [Highcharts API](http://api.highcharts.com/highcharts) reference for all the posibilities.
+See the [Highcharts API](http://api.highcharts.com/highcharts) reference for all the possibilities.
 
 - Arguments
 	- `$chart_args`
@@ -97,7 +97,7 @@ This hook is useful for changing the behavior of Highcharts.
 
 Most of the options involve localization stuff.  For instance you could change the decimal indicator to a comma which is used in some European contries.
 
-See the [Highcharts API](http://api.highcharts.com/highcharts) reference for all the posibilities.
+See the [Highcharts API](http://api.highcharts.com/highcharts) reference for all the possibilities.
 
 - Arguments
 	- `$chart_options`
