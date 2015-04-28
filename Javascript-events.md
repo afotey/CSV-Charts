@@ -33,3 +33,18 @@ $( '.m-chart' ).on( 'render_done', function( event ){
 	});
 });
 ````
+
+### `canvas_done` <a name="canvas_done"></a> ###
+
+`canvas_done` occurs immediately after the chart edit panel has rendered the canvas version of the chart.
+
+This allows you to manipulate the canvas context before it is turned into an image. For instance you could use this to add a watermark to the image versions of a chart (since the image versions are used in syndication/rss situations this might be valuable from a branding standpoint).
+
+The m_chart_admin object is available to your Javascript at this point which has the following values (among others) available to it depending on the time your code triggers:
+
+- post_id
+- $spreadsheet
+- canvas
+- canvas_context
+
+See the [`m_chart_admin_footer_javascript`](https://github.com/methnen/m-chart/wiki/Action-and-filter-hooks/#admin_footer_javascript) Action hook docs which have perfect example of this being used.
