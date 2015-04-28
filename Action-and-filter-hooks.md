@@ -67,7 +67,7 @@ function action_m_chart_admin_footer_javascript() {
 
 add_action( 'm_chart_admin_footer_javascript', 'action_m_chart_admin_footer_javascript' );
 
-````
+```
 
 ## Filter Hooks ##
 
