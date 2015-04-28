@@ -1,6 +1,6 @@
 **Available in M Chart v.1.1+**
 
-M Chart has implemented a Shortcake Shortcode UI.
+M Chart has implemented a Shortcake shortcode UI.
 
 [Shortcake](https://wordpress.org/plugins/shortcode-ui/) provides a method for creating interfaces that allow authors to embed and use shortcodes from the edit panel of a post without writing the shortcakes themselves.  It also quite nicely renders those shortcodes inside the edit panel of the post when in the **Visual** tab of the post content field.
 
