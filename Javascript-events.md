@@ -36,6 +36,8 @@ $( '.m-chart' ).on( 'render_done', function( event ){
 
 ### `canvas_done` <a name="canvas_done"></a> ###
 
+Available in M Chart v.1.1+
+
 `canvas_done` occurs immediately after the chart edit panel has rendered the canvas version of the chart.
 
 This allows you to manipulate the canvas context before it is turned into an image. For instance you could use this to add a watermark to the image versions of a chart (since the image versions are used in syndication/rss situations this might be valuable from a branding standpoint).
