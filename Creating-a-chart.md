@@ -1,5 +1,3 @@
-## Creating a chart ##
-
 Here's a screenshot of the M Chart UI:
 
 ![M Chart UI](https://methnen.com/misc/m-chart/ui.png)
