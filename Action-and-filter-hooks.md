@@ -42,6 +42,8 @@ add_action( 'm_chart_post_render_javascript', 'action_m_chart_post_render_javasc
 
 ### `m_chart_admin_footer_javascript` <a name="admin_footer_javascript"></a> ###
 
+**Available in M Chart v.1.1+**
+
 This is an action that is triggered in the footer of a chart post edit page.
 
 Potentially this could be used to include some Javascript code that would affect anything that happens during the chart edit process.
