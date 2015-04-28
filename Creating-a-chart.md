@@ -8,7 +8,7 @@ You'll see a spreadsheet interface at the top.  This is where you'll input your 
 
 In the screenshot you'll see that the user has put two columns of sales data (iPad and iPhone) broken up by Quarter.
 
-They could have also put to rows of sales data and simply flipped the **Parse in** setting to **Rows** instead of columns.  Also note that the first two quarters there was no reported iPad sales data.  It's fine to leave values like that blank.  M Chart will set them as a null values in Highcharts and everything will still render fine.
+They could have also put two rows of sales data and simply flipped the **Parse in** setting to **Rows** instead of columns.  Also note that the first two quarters there was no reported iPad sales data.  It's fine to leave values like that blank.  M Chart will set them as a null value in Highcharts and everything will still render fine.
 
 Lets look at a more simple chart:
 
