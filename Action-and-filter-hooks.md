@@ -46,7 +46,7 @@ This is an action that is triggered in the footer of a chart post edit page.
 
 Potentially this could be used to include some Javascript code that would affect anything that happens during the chart edit process.
 
-Example (See the [`canvas_done`](https://github.com/methnen/m-chart/wiki/Javascript-events/#canvas_done) Javascript event which is used in this example.):
+Example (See the [`canvas_done`](https://github.com/methnen/m-chart/wiki/Javascript-events#canvas_done) Javascript event which is used in this example.):
 
 ```php
 function action_m_chart_admin_footer_javascript() {
