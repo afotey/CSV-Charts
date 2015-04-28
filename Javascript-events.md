@@ -47,4 +47,4 @@ The m_chart_admin object is available to your Javascript at this point which has
 - canvas
 - canvas_context
 
-See the [`m_chart_admin_footer_javascript`](https://github.com/methnen/m-chart/wiki/Action-and-filter-hooks/#admin_footer_javascript) Action hook docs which have perfect example of this being used.
+See the [`m_chart_admin_footer_javascript`](https://github.com/methnen/m-chart/wiki/Action-and-filter-hooks#admin_footer_javascript) Action hook docs which have perfect example of this being used.
