@@ -40,7 +40,7 @@ $( '.m-chart' ).on( 'render_done', function( event ){
 
 This allows you to manipulate the canvas context before it is turned into an image. For instance you could use this to add a watermark to the image versions of a chart (since the image versions are used in syndication/rss situations this might be valuable from a branding standpoint).
 
-The m_chart_admin object is available to your Javascript at this point which has the following values (among others) available to it depending on the time your code triggers:
+The m_chart_admin object is available to your Javascript at this point which has the following items (among others) available to it depending on the time your code triggers:
 
 - post_id
 - $spreadsheet
