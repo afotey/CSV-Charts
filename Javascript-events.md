@@ -36,7 +36,7 @@ $( '.m-chart' ).on( 'render_done', function( event ){
 
 ### `canvas_done` <a name="canvas_done"></a> ###
 
-Available in M Chart v.1.1+
+**Available in M Chart v.1.1+**
 
 `canvas_done` occurs immediately after the chart edit panel has rendered the canvas version of the chart.
 
