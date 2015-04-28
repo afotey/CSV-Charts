@@ -38,8 +38,9 @@ function m_chart_post_render_javascript( $post_id, $args ) {
 }
 
 add_action( 'm_chart_post_render_javascript', 'action_m_chart_post_render_javascript', 10, 2 );
+```
 
-### `m_chart_admin_footer_javascript`<a name="admin_footer_javascript"></a> ###
+### `m_chart_admin_footer_javascript` <a name="admin_footer_javascript"></a> ###
 
 This is an action that is triggered in the footer of a chart post edit page.
 
