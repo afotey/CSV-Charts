@@ -1,6 +1,6 @@
 Welcome to the M Chart wiki!
 
-Check out some [examples](https://github.com/methnen/m-chart/wiki/Chart-Examples) of the types of charts you can build with M Chart.
+Check out some [examples](https://github.com/methnen/m-chart/wiki/Types-of-charts) of the types of charts you can build with M Chart.
 
 For users you may also want to take a look at the User Documentation providing a quick rundown of how to use the plugin.
 
