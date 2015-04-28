@@ -20,7 +20,7 @@ This is an action that is triggered when generating the Javascript and HTML used
 
 Potentially this could be used to include some Javascript code that would run after a chart has finished rendering.  This is great spot to add a watermark via an SVG file.
 
-The Javscript should have the Highcharts `chart` object available to it and can also access to the chart args for the current chart since you know the ID of the post.
+The Javascript should have the Highcharts `chart` object available to it and can also access to the chart args for the current chart since you know the ID of the post.
 
 - Arguments
 	- `$post_id`
@@ -38,6 +38,33 @@ function m_chart_post_render_javascript( $post_id, $args ) {
 }
 
 add_action( 'm_chart_post_render_javascript', 'action_m_chart_post_render_javascript', 10, 2 );
+
+### `m_chart_admin_footer_javascript`<a name="admin_footer_javascript"></a> ###
+
+This is an action that is triggered in the footer of a chart post edit page.
+
+Potentially this could be used to include some Javascript code that would affect anything that happens during the chart edit process.
+
+Example (See the [`canvas_done`](https://github.com/methnen/m-chart/wiki/Javascript-events/#canvas_done) Javascript event which is used in this example.):
+
+```php
+function action_m_chart_admin_footer_javascript() {
+	?>
+	(function( $ ) {
+		$( '.m-chart' ).on( 'canvas_done', function() {
+			m_chart_admin.canvas_context.drawSvg(
+				'<svg>...</svg>',
+				m_chart_admin.canvas.width,
+				m_chart_admin.canvas.height,
+				170,
+				30
+			);
+		});
+	})( jQuery );
+	<?php
+}
+
+add_action( 'm_chart_admin_footer_javascript', 'action_m_chart_admin_footer_javascript' );
 
 ````
 
