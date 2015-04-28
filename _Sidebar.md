@@ -5,6 +5,7 @@
 - [Types of charts](https://github.com/methnen/m-chart/wiki/Types-of-charts)
 - [Creating a chart](https://github.com/methnen/m-chart/wiki/creating-a-chart)
 - [Chart shortcode](https://github.com/methnen/m-chart/wiki/chart-shortcode)
+- [Shortcake shortcode UI](https://github.com/methnen/m-chart/wiki/Shortcake-shortcode-UI)
 - [CSV importing/exporting](https://github.com/methnen/m-chart/wiki/csv-importing-exporting)
 
 **Developer Documentation**
