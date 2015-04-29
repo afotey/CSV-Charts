@@ -6,17 +6,15 @@ M Chart has implemented a Shortcake shortcode UI.
 
 Here's how to use it:
 
-1. From the edit panel of a post click on the **Add Media** button
+1. From the edit panel of a post click on the **Add Media** button and click on **Insert Post Element**
 	![Shortcake UI 1](https://methnen.com/misc/m-chart/shortcake-1.png)
-2. Click on **Insert Post Element**
+2. Choose **Charts**
 	![Shortcake UI 2](https://methnen.com/misc/m-chart/shortcake-2.png)
-3. Choose **Charts**
+3. Click on the **Search** input
 	![Shortcake UI 3](https://methnen.com/misc/m-chart/shortcake-3.png)
-4. Click on the **Search** input
+4. Type some keywords that match the chart you are looking for
 	![Shortcake UI 4](https://methnen.com/misc/m-chart/shortcake-4.png)
-5. Type some keywords that match the chart you are looking for
-6. Choose the chart you want from the drop down
+5. Choose the chart you want from the drop down and click on the **Insert Element** button
 	![Shortcake UI 5](https://methnen.com/misc/m-chart/shortcake-5.png)
-7. Click on the **Insert Element** button
-8. Checkout the cool rendered version of the chart showing up in the **Visual** tab of the post content field.
+6. Checkout the cool rendered version of the chart showing up in the **Visual** tab of the post content field.
 	![Shortcake UI 6](https://methnen.com/misc/m-chart/shortcake-6.png)
