@@ -96,7 +96,7 @@ See the [Highcharts API](http://api.highcharts.com/highcharts) reference for all
 Example:
 
 ```php
-function m_chart_chart_args( $chart_args ) {
+function m_chart_chart_args( $chart_args, $post, $post_meta, $args ) {
 	$chart_args['colors'] = array(
 		'#2f7ed8',
 		'#0d233a',
@@ -113,7 +113,7 @@ function m_chart_chart_args( $chart_args ) {
 	return $chart_args;
 }
 
-add_filter( 'm_chart_chart_args', 'filter_m_chart_chart_args', 10 );
+add_filter( 'm_chart_chart_args', 'filter_m_chart_chart_args', 10, 4 );
 
 ````
 
@@ -138,12 +138,12 @@ See the [Highcharts API](http://api.highcharts.com/highcharts) reference for all
 Example:
 
 ```php
-function m_chart_chart_args( $chart_options ) {
+function m_chart_chart_args( $chart_options, $library ) {
 	$chart_options['lang']['decimalPoint'] = ',';
 
 	return $chart_options;
 }
 
-add_filter( 'm_chart_chart_args', 'filter_m_chart_chart_args', 10 );
+add_filter( 'm_chart_chart_args', 'filter_m_chart_chart_args', 10, 2 );
 
 ````
