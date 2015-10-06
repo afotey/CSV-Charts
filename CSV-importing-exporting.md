@@ -10,4 +10,4 @@ You'll then see something that looks like this:
 
 ![CSV import/export importing](https://methnen.com/misc/m-chart/csv-import-export-importing.png)
 
-Click the **Import** button and the CSV file will be imported into the spreadsheet of the chart you are editing.
+Click the **Import** button and the CSV file will be imported into the spreadsheet of the chart you are editing. Note that it will replace any existing data you've put into that spreadsheet previously.
